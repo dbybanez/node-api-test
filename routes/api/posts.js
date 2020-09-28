@@ -6,7 +6,7 @@ const router = express.Router()
 router.get('/', async (req, res) => {
   // const posts = await loadPostsCollection()
   const data = {
-    hello: "Bosski"
+    hello: "Wiwo"
   }
   res.send(data)
 })
